@@ -1,0 +1,88 @@
+*{
+    margin : auto;
+    padding: auto;
+    font-family: sans-serif; 
+}
+
+.contenedorPadre{
+    height: 850px;
+    /* margin: 10px; */
+    padding: 20px;
+    border: 1px solid green;
+    background: black;
+}
+
+.contenedorMenu{
+    height: 400px;
+    width: 7%;
+    float: left;
+    padding-top: 3%;
+    border: 1px solid black;
+    color: white;
+}
+
+.contenedorHijo{
+    height: 780px;
+    width: 90%;
+    border: 1px solid blue;
+    float: right; 
+}
+
+.contenedorContenido{
+    text-align: left;
+    min-height: 27%;
+    border: 1px solid yellowgreen;
+    
+}
+.imagen{
+        width: 150px;
+        height: 150px;
+}
+
+.turquoise{
+    background-color: turquoise;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.orange{
+    background-color: orange;
+}
+
+.red{
+    background-color: red;
+}
+
+h2,p{
+    padding: 10px;
+}
+
+li:hover{
+    color:grey;
+}
+
+.text-left{
+    text-align: left;
+    color: navy
+}    
+
+.text-center{
+    text-align: center;
+    color:chartreuse
+}
+
+.text-rigth{
+    text-align: right;
+    color: red;
+}
+
+.rrss{
+    width: 20px;
+    height: 20px;
+}
+
+.rrss:hover {width: 25px; height:25px;}     
+ 
+.contact:hover {color:white}
